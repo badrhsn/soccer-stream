@@ -1,0 +1,52 @@
+.pagina{ 
+	display: flex;
+     
+}
+
+.pagina ul
+{
+	padding-left: 0px;
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.pagina li{
+	overflow: hidden;
+	text-align: center;
+	
+	height: 30px;
+	border:0;
+	margin-right:2px;
+	background-color:#ddd ;
+	padding-top: 5px;
+	
+}
+.pagina a:hover{
+	
+	background-color:#364958;
+	color: white;
+}
+
+.pagina a{
+	color: black;
+	padding: 8px 11px;
+}
+
+.pagina-active {
+	background-color: #364958;
+	color: #fff;
+}
+.pagina li:first-child{
+
+	border-radius:7px 0 0 7px; 
+
+}
+.pagina li:last-of-type{
+	border-radius:0 7px 7px 0; 
+}
+
+.league-active {
+	background-color: #c7ccdb !important;
+	color: #364958 !important;
+	border: 3px solid #364958;
+}

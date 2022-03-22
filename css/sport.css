@@ -1,0 +1,270 @@
+td {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+
+.hors-ad {
+	display:inline-block;
+	width:728px;
+	height:90px;
+}
+
+.coverage {
+	background-color: #c8cdd1;
+	 border: 3px solid #364958 !important;
+}
+
+.the_frame {
+	width: 628px;
+	height: 320px;
+}
+
+.goals {
+	background-color: #c8cdd1;
+	border: 3px solid #364958;
+	margin-bottom: 20px;
+}
+
+.sport_new {
+	border: 3px solid #364958;
+	margin-bottom: 10px;
+}
+
+.pr-new-result {
+	background-color: #fff;
+}
+
+
+.table-bordered {
+	border: 3px solid #364958;
+
+}
+
+.table-bordered > tbody > tr > td {
+	border: 2px solid #364958;
+}
+
+.tbl {
+	padding: 0;
+	margin-top: 20px;
+}
+
+.new_img{
+	margin-bottom: 10px;
+	border-radius: 2px;
+	border: 3px solid #364958;
+}
+
+.table-ads {
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.matches-schedule {
+	margin-top: 50px;
+	padding: 10px;
+	background-color: #c8cdd1;
+	border: 3px solid #364958;
+	border-top: none;
+	display: flex;
+	justify-content: space-around;	
+}
+
+.ads {
+	margin-top: 20px;
+}
+
+.team-img {
+	width: 140px;
+	height: 140px;
+}
+
+.vs-logo h1 {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 130px;
+	font-weight: 700;
+	color: #364958;
+}
+
+.stream-holder {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.player-chat {
+	display: flex;
+	justify-content: space-between;
+}
+
+.chatbox {
+	width: 250px;
+	
+	margin-top: 20px;
+	height: 350px;
+	border: 1px solid #000;
+}
+
+.player {
+	margin-top: 20px;
+	width: 600px;
+	height: auto;
+	border: 1px solid #000;
+}
+
+
+.stream-add {
+	width: 620px;
+	height: 240px;
+	border: 1px solid #000;
+	margin: 10px 8px 0 0;
+}
+
+.chatbox-player {
+	display: flex;
+	justify-content: space-around;
+}
+
+.ad-adjust {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.video-player {
+	width: 100%;
+	height: 348px;
+}
+
+.second-add {
+		margin-right: 0px !important;
+	}
+
+.container { padding-left: 0;
+padding-right: 0; }
+
+@media only screen and (max-width: 1199px) {
+	.container {
+		padding-left: 15px;
+		padding-right:15px;
+	}
+
+	.player-chat {
+	display: flex;
+	justify-content: space-between;
+	}
+
+	.chatbox {
+		display: none;
+	}
+
+	.player {
+		
+		width: 660px;
+		height: auto;
+		margin:20px auto 0;
+	}
+
+	.chatbox-player {
+		justify-content: flex-start;
+	}
+
+	.ad-adjust {
+		justify-content: flex-start;
+	}
+	.stream-add {
+		width: 660px;
+		border: 1px solid #000;
+		margin: 10px 0 0;
+	}
+
+}	
+
+@media only screen and (max-width: 991px) {
+
+	.team-img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.vs-logo h1 {
+		margin: 0;
+		font-family: 'Poppins', sans-serif;
+		font-size: 90px;
+		font-weight: 700;
+		color: #364958;
+	}
+
+	.second-add {
+		display: none;
+	}
+
+	.player {
+		margin-top: 0px;
+		width: 100%;
+		height: auto;
+	}
+
+	.stream-add {
+		width: 100%;
+		height: 100px;
+	}
+
+	.video-player {
+		width: 100%;
+		height: auto;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	.container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.player {
+		width: 100%;
+		height: auto;
+		margin: auto;
+	}
+
+	.stream-add {
+		width: 80%;
+		margin: 10px auto 0;
+	}
+
+	.video-player {
+		width: 100%;
+	}
+
+	.hors-ad {
+		width:320px;
+		height:100px;
+	}
+
+}
+
+@media only screen and (max-width: 670px) {
+
+	.the_frame {
+		width: 90%;
+		height: auto;
+	}	
+}
+
+@media only screen and (max-width: 560px) {
+
+	.team-img {
+		width: 70px;
+		height: 70px;
+	}
+
+	.vs-logo h1 {
+		font-size: 60px;
+		font-weight: 700;
+	}
+}
+

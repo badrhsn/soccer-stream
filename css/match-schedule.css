@@ -1,0 +1,162 @@
+body {
+	background-color: #ecedef;
+}
+
+a{
+	text-decoration: none;
+}
+
+p {
+	font-family: 'Poppins', sans-serif;
+	color: black;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.phone-ads {
+	margin-top: 70px;
+}
+
+.fixtures {
+	margin-top: 50px;
+}
+
+#comming-up-container {
+	margin-top: 20px;
+}
+
+.comming-up-match {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	padding: all;
+	margin: auto;
+	-moz-transition: 0.3s;
+	-webkit-transition:0.3s;
+	-o-transition:0.3s;
+	transition: 0.3s;
+}
+
+.comming-up-match:hover {
+	opacity: 0.7;
+	
+	-moz-transition: 0.3s;
+	-webkit-transition:0.3s;
+	-o-transition:0.3s;
+	transition: 0.3s;
+}
+
+.comming-up-team {
+	width: 30%;
+	display: block;
+	
+}
+
+.cmn1 {
+	justify-content: flex-start;
+}
+
+.cmn1 p {
+	margin-left: 0 !important;
+}
+
+.cmn2 {
+	justify-content: flex-end;
+}
+
+.cmn2 p {
+	margin-right: 0 !important;
+}
+
+.comming-up-team p {
+	text-align: center;
+	margin:4px 0 0 0;
+}
+
+.comming-up-team-pic {
+	width: 30px;
+	height: 30px;
+}
+
+.comming-up-logo {
+	width: 50px;
+	height: 50px;
+}
+
+#comming-up-info {
+	text-align: center;
+	margin-top: -4px;
+}
+
+#comming-up-info p {
+	margin: 0;
+
+}
+
+.match-content {
+	width: 100%;
+	margin-top: 10px;
+	border-bottom: 2px solid #364958;
+}
+	
+
+.fixtures-match-date {
+	text-align: center;
+	background-color: #364958;
+	color: #ecedef;
+	border-bottom: 1px solid #fff;
+}
+
+.fixtures-match-date2 {
+	text-align: center;
+	background-color: #52687a;
+	color: #ecedef;
+}
+
+.fixtures-match-date2 h4 {
+	padding: 5px;
+	margin: 0;
+}
+
+.fixtures-match-date h4 {
+	padding: 5px;
+	margin: 0;
+}
+
+.fixture-holder {
+	margin-bottom: 20px;
+	border: 2px solid #364958;	
+	border-bottom: none;
+}
+.available {
+		font-size: 15px;
+}
+
+@media only screen and (max-width: 992px) {
+
+	.comming-up-match {
+		width: 95%;
+	}
+
+	p {
+		font-size: 12px;
+	}
+
+	.available {
+		font-size: 11px;
+	}
+
+	.cmn1 p {
+		margin-left: 0 !important;
+	}
+
+	.cmn2 p {
+		margin-right: 0 !important;
+	}
+
+	.comming-up-team {
+		display: block;
+	}
+
+
+}
